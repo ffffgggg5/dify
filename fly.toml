@@ -1,4 +1,4 @@
-app = "Takeda_shocho_bot" # 上で自動生成された名前（例: dify-bitter-grass-9354）
+app = "dify-bitter-grass-9354" # 上で自動生成された名前（例: dify-bitter-grass-9354）
 primary_region = "nrt"
 
 [build]
