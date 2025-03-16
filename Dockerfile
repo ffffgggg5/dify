@@ -19,7 +19,7 @@ COPY . /app
 
 # Pythonの依存関係をインストール
 RUN pip install --upgrade pip
-RUN pip install -r api/requirements.txt
+#RUN pip install -r api/requirements.txt
 
 # ポートを開放
 EXPOSE 5001
