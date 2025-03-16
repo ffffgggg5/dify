@@ -25,4 +25,5 @@ RUN pip install --upgrade pip
 EXPOSE 5001
 
 # サーバー起動コマンド
-CMD ["python", "dify/api/dify_app.py"]
+CMD ["python", "api/dify_app.py"]
+
