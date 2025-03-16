@@ -1,0 +1,17 @@
+app = "Takeda_shocho_bot" # 上で自動生成された名前（例: dify-bitter-grass-9354）
+primary_region = "nrt"
+
+[build]
+dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 5001
+  force_https = true
+
+[[services]]
+internal_port = 5001
+protocol = "tcp"
+
+  [[services.ports]]
+  handlers = ["http"]
+  port = 80
